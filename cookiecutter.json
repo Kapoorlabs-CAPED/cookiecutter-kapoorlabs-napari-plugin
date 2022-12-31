@@ -1,0 +1,24 @@
+{
+    "full_name": "Varun kapoor",
+    "email": "randomaccessiblekapoor@gmail.com",
+    "github_username_or_organization": "Kapoorlabs-CAPED",
+    "plugin_name": "napatrackmater-napari",
+    "github_repository_url": ["https://github.com/{{cookiecutter.github_username_or_organization}}/{{cookiecutter.plugin_name}}", "provide later"],
+    "module_name": "{{ cookiecutter.plugin_name|lower|replace('-', '_') }}",
+    "display_name": "napatrackmater-napari",
+    "short_description": "A simple plugin to use with napari",
+    "include_reader_plugin": "y",
+    "include_writer_plugin": "y",
+    "include_sample_data_plugin": "y",
+    "include_widget_plugin": "y",
+    "use_git_tags_for_versioning": "y",
+    "install_precommit": "y",
+    "license": [
+        "BSD-3",
+        "MIT",
+        "Mozilla Public License 2.0",
+        "Apache Software License 2.0",
+        "GNU LGPL v3.0",
+        "GNU GPL v3.0"
+    ]
+}
