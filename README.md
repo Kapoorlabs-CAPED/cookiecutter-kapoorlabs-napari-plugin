@@ -1,6 +1,6 @@
-# cookiecutter-napari-plugin
+# cookiecutter-kapoorlabs-napari-plugin
 
-[Cookiecutter] template for authoring ([npe2]-based) [napari] plugins.
+[Cookiecutter] template for authoring ([npe2]-based) [napari] plugins by KapoorLabs.
 
 **NOTE: This repo is not meant to be cloned/forked directly! Please read "Getting Started" below**
 
@@ -12,27 +12,27 @@ Install [Cookiecutter] and generate a new napari plugin project:
 
 ```bash
 pip install cookiecutter
-cookiecutter https://github.com/napari/cookiecutter-napari-plugin
+cookiecutter https://github.com/napari/cookiecutter-kapoorlabs-napari-plugin
 ```
 
 Cookiecutter prompts you for information regarding your plugin
 (A new folder will be created in your current working directory):
 
 ```bash
-full_name [Napari Developer]: Ramon y Cajal
-email [yourname@example.com]: ramon@cajal.es
-github_username_or_organization [githubuser]: neuronz52
+full_name [Napari Developer]: Varun Kapoor
+email [yourname@example.com]: randomaccessiblekapoor@gmail.com
+github_username_or_organization [githubuser]: Kapoorlabs-CAPED
 # NOTE: for packages whose primary purpose is to be a napari plugin, we
 # recommend using the 'napari-' prefix in the package name.
 # If your package provides functionality outside of napari, you may
 # choose to leave napari out of the name.
-plugin_name [napari-foobar]: napari-growth-cone-finder
+plugin_name [vollseg-napari-kickass]: vollseg-napari-kickass
 Select github_repository_url:
-1 - https://github.com/neuronz52/napari-growth-cone-finder
+1 - https://github.com/Kapoorlabs-CAPED/napari-napari-kickass
 2 - provide later
 Choose from 1, 2 [1]:
-module_name [growth_cone_finder]: napari_growth_cone_finder
-display_name [napari FooBar]: Growth Cone Finder
+module_name [vollseg_napari_kickass]: vollseg_napari_kickass
+display_name [NapaTrackMater]: Write the python library full name or short name
 short_description [A simple plugin to use with napari]:
 # you can select from various plugin template examples
 include_reader_plugin [y]:
@@ -64,7 +64,7 @@ napari-growth-cone-finder/
 │      └── test_and_deploy.yml
 ├── LICENSE
 ├── MANIFEST.in
-├── napari_growth_cone_finder
+├── vollseg_napari_kickass
 │   ├── __init__.py
 │   ├── _widget.py
 │   ├── _reader.py
@@ -87,7 +87,7 @@ the version of your package is managed using git tags,
 [see below](#automatic-deployment-and-version-management))
 
 ```bash
-cd napari-growth-cone-finder
+cd vollseg-napari-kickass
 git init
 git add .
 git commit -m 'initial commit'
