@@ -28,7 +28,7 @@ github_username_or_organization [githubuser]: Kapoorlabs-CAPED
 # choose to leave napari out of the name.
 plugin_name [vollseg-napari-kickass]: vollseg-napari-kickass
 Select github_repository_url:
-1 - https://github.com/Kapoorlabs-CAPED/napari-napari-kickass
+1 - https://github.com/Kapoorlabs-CAPED/vollseg-napari-kickass
 2 - provide later
 Choose from 1, 2 [1]:
 module_name [vollseg_napari_kickass]: vollseg_napari_kickass
