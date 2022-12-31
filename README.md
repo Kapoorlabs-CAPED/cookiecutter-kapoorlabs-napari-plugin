@@ -12,7 +12,7 @@ Install [Cookiecutter] and generate a new napari plugin project:
 
 ```bash
 pip install cookiecutter
-cookiecutter https://github.com/napari/cookiecutter-kapoorlabs-napari-plugin
+cookiecutter https://github.com/Kapoorlabs-CAPED/cookiecutter-kapoorlabs-napari-plugin
 ```
 
 Cookiecutter prompts you for information regarding your plugin
