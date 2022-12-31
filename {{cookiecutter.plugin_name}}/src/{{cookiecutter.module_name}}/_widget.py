@@ -1,5 +1,5 @@
 """
-VollSeg Napari Track .
+Vollseg Napari Kickass .
 
 Made by Kapoorlabs, 2022
 """
