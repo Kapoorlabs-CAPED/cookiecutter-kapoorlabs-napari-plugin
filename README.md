@@ -57,7 +57,7 @@ and ready for automatic deployment!
 For more detailed information on each prompt see the [prompts reference](./PROMPTS.md).
 
 ```no-highlight
-napari-growth-cone-finder/
+vollseg-napari-kickass/
 │
 ├── .github
 │   └── workflows
