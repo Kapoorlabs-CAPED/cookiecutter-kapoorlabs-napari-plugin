@@ -12,10 +12,14 @@ from ._reader import napari_get_reader
 {% endif %}{% if cookiecutter.include_sample_data_plugin == 'y' -%}
 from ._sample_data import make_sample_data
 {% endif %}{% if cookiecutter.include_widget_plugin == 'y' -%}
-from ._widget import ExampleQWidget, example_magic_widget
+from ._widget import plugin_wrapper_track
 {% endif %}{% if cookiecutter.include_writer_plugin == 'y' -%}
 from ._writer import write_multiple, write_single_image
 {% endif %}
+from ._temporal_plots import TemporalStatistics 
+from ._table_widget import TrackTable
+from ._data_model import pandasModel
+
 __all__ = (
     {% if cookiecutter.include_reader_plugin == 'y' -%}
     "napari_get_reader",
@@ -25,7 +29,9 @@ __all__ = (
     {% endif %}{% if cookiecutter.include_sample_data_plugin == 'y' -%}
     "make_sample_data",
     {% endif %}{% if cookiecutter.include_widget_plugin == 'y' -%}
-    "ExampleQWidget",
-    "example_magic_widget",
+    "plugin_wrapper_track",
+    "TemporalStatistics",
+    "TrackTable",
+    "pandasModel"
 {% endif -%}
 )
