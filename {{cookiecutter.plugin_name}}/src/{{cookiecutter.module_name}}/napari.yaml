@@ -16,7 +16,7 @@ contributions:
       title: Load sample data from {{cookiecutter.display_name}}{% endif %}
     - id: {{cookiecutter.plugin_name}}.widget
       python_name: {{cookiecutter.module_name}}._widget:plugin_wrapper
-      title: Plugin wrapper
+      title: Plugin wrapper{% if cookiecutter.include_reader_plugin == 'y' %}
     
   readers:
     - command: {{cookiecutter.plugin_name}}.get_reader
